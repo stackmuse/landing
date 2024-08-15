@@ -7,8 +7,48 @@
   <link rel="stylesheet" href="css/bootstrap.min.css">
   <title>StackMuse</title>
 </head>
-<body>
-  <h1>StackMuse</h1>
+<body class="min-vh-100 bg-secondary-subtle text-bg-light">
+  <div class="container my-5">
+    <div class="mb-5">
+      <h1>StackMuse</h1>
+      <p>Data Centric Web Development</p>
+    </div>
+    <div class="mb-5">
+      <h2>Services</h2>
+      <ul>
+        <li>Fullstack Web Development</li>
+        <li>Frontend UI</li>
+        <li>Backend API</li>
+        <li>Deployments Cloud and On-Prem</li>
+        <li>Data Analytics and Reporting</li>
+      </ul>
+    </div>
+    <div class="mb-5">
+      <h2>About</h2>
+      <p>StackMuse was formed in Austin, TX in 2020 with a mission to provide data-centric web development service. We start with your data and ask how we can best present it.</p>
+    </div>
+    <div class="mb-5">
+      <h2>Team</h2>
+      <div>
+        <h4>Chris</h4>
+        <p>Chris is a backend engineer and holds a Bachelors of Science in Software Engineering from Arizona State University. He is an Air Force veteran who served as an airborne linguist and security manager.</p>
+        <h4>Nathanael</h4>
+        <p>Nathanael is a fullstack engineer and holds a Bachelors of Science in Software Engineering from Arizona State University. He is an avian scientist and actively conducts field research studying bird migration and breeding patterns.</p>
+      </div>
+    </div>
+    <div>
+      <h2>Contact</h2>
+      <form>
+        <label for="name">Name</label>
+        <input type="text" class="form-control" id="name" name="name" placeholder="John Smith" required>
+        <label for="email">Email</label>
+        <input type="email" class="form-control" id="email" name="email" placeholder="john.smith@email.com" required>
+        <label for="message">Message</label>
+        <textarea name="message" class="form-control" id="message" rows="10" placeholder="I would like to discuss a project" required></textarea>
+        <input type="submit" value="Send" class="btn btn-primary w-100">
+      </form>
+    </div>
+  </div>
   <script src="js/bootstrap.bundle.min.js"></script>
 </body>
 </html>
