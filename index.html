@@ -4,16 +4,24 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="description" content="StackMuse">
+  <link rel="icon" href="img/favicon.ico">
   <link rel="stylesheet" href="css/bootstrap.min.css">
   <title>StackMuse</title>
 </head>
 <body class="min-vh-100 bg-secondary-subtle text-bg-light">
   <div class="container my-5">
-    <div class="mb-5">
-      <h1>StackMuse</h1>
-      <p>Data Centric Web Development</p>
+    <div id="title" class="my-5 px-4 py-5 text-center">
+      <img class="d-block mx-auto mb-4" src="img/logo.png" alt="StackMuse" width="74" height="156">
+      <h1 class="display-5 fw-bold text-body-emphasis">StackMuse</h1>
+      <div class="col-lg-6 mx-auto">
+        <p class="lead mb-4">Data Centric Web Development</p>
+        <div class="d-grid gap-2 d-sm-flex justify-content-sm-center">
+          <a href="#contact" class="btn btn-primary px-4 gap-3">Contact Us</a>
+          <a href="#about" class="btn btn-outline-secondary px-4 gap-3">About</a>
+        </div>
+      </div>
     </div>
-    <div class="mb-5">
+    <div id="services" class="mb-5">
       <h2>Services</h2>
       <ul>
         <li>Fullstack Web Development</li>
@@ -23,11 +31,11 @@
         <li>Data Analytics and Reporting</li>
       </ul>
     </div>
-    <div class="mb-5">
+    <div id="about" class="mb-5">
       <h2>About</h2>
       <p>StackMuse was formed in Austin, TX in 2020 with a mission to provide data-centric web development service. We start with your data and ask how we can best present it.</p>
     </div>
-    <div class="mb-5">
+    <div id="team" class="mb-5">
       <h2>Team</h2>
       <div>
         <h4>Chris</h4>
@@ -36,16 +44,16 @@
         <p>Nathanael is a fullstack engineer and holds a Bachelors of Science in Software Engineering from Arizona State University. He is an avian scientist and actively conducts field research studying bird migration and breeding patterns.</p>
       </div>
     </div>
-    <div>
+    <div id="contact">
       <h2>Contact</h2>
-      <form name="contact" netlify>
-        <label for="name">Name</label>
+      <form name="contact-form" netlify>
+        <label for="name" class="mt-3">Name</label>
         <input type="text" class="form-control" id="name" name="name" placeholder="John Smith" required>
-        <label for="email">Email</label>
+        <label for="email" class="mt-3">Email</label>
         <input type="email" class="form-control" id="email" name="email" placeholder="john.smith@email.com" required>
-        <label for="message">Message</label>
+        <label for="message" class="mt-3">Message</label>
         <textarea name="message" class="form-control" id="message" rows="10" placeholder="I would like to discuss a project" required></textarea>
-        <input type="submit" value="Send" class="btn btn-primary w-100">
+        <input type="submit" value="Send" class="btn btn-primary w-100 mt-3">
       </form>
     </div>
   </div>
