@@ -1,0 +1,15 @@
+$orange:  #fa4600 !default;
+
+@import "variables";
+@import "../node_modules/bootstrap/scss/bootstrap";
+@import "bootswatch";
+
+.icon-white {
+    width: 24px;
+    height: 24px;
+    filter: brightness(0) invert(1);
+}
+
+.bg-gray-trans {
+  background-color: rgba(128, 128, 128, 0.1);
+}

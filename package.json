@@ -1,0 +1,17 @@
+{
+  "name": "landing",
+  "version": "1.0.0",
+  "description": "Landing page for StackMuse.com",
+  "main": "index.js",
+  "scripts": {
+    "compile": "sass scss/style.scss css/style.css",
+    "watch": "sass --watch scss/style.scss:css/style.css"
+  },
+  "keywords": [],
+  "author": "StackMuse",
+  "license": "ISC",
+  "dependencies": {
+    "bootstrap": "^5.3.3",
+    "sass": "^1.77.8"
+  }
+}
